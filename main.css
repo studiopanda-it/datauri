@@ -7,13 +7,13 @@ p {
 	margin-left: 30px;
 }
 .input {
-	background-image: url("dragdrop.gif");
+	background-image: url("dragdrop.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: block;
 	margin: 50px auto;
-	width: 50%;
-	height: 360px;
+	width: 800px;
+	height: 600px;
 	text-align: center;
 	line-height: 120px;
 	outline: 3px solid #ffc600;
@@ -37,4 +37,17 @@ button {
 	background: #ffc600;
 	border: none;
 	border-radius: 20px;
+}
+@media(max-width:810px){
+	.input{
+		width: 200px;
+		height: 150px;
+		line-height: 35px;
+	}
+}
+@media(max-width:710px) {
+	.output {
+		width: 300px;
+		height: 150px;
+	}
 }
