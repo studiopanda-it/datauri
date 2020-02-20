@@ -1,0 +1,40 @@
+body {
+	background: #0072B9;
+}
+p {
+	color:#ffc600;
+	font-size: 20px;
+	margin-left: 30px;
+}
+.input {
+	background-image: url("dragdrop.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	margin: 50px auto;
+	width: 50%;
+	height: 360px;
+	text-align: center;
+	line-height: 120px;
+	outline: 3px solid #ffc600;
+	border: 2px solid #0072B9;
+}
+.output {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height: 200px;
+	outline: 2px solid #ffc600;
+	border: 2px solid #0072B9;
+}
+
+button {
+	display: block;
+	margin: 20px auto;
+	width: 50px;
+	height: 20px;
+	color: #000;
+	background: #ffc600;
+	border: none;
+	border-radius: 20px;
+}
